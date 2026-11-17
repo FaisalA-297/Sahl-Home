@@ -1,0 +1,33 @@
+name: sah_home_prot
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  # This range supports modern Flutter versions (like 3.0.0 and above)
+  # and ensures compatibility with the new Firebase versions.
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.10.3
+  geolocator: ^13.0.1
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  http: ^1.2.0
+  
+  # --- UPDATED FIREBASE VERSIONS (Fixes Web TypeError) ---
+ 
+  # ----------------------------------------------------
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0 # Using a contemporary lints version
+
+flutter:
+  uses-material-design: true
